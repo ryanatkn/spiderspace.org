@@ -18,7 +18,7 @@
 	</section>
 	<section class="panel p_md shadow w_100">
 		<div class="panel bg p_md">
-			<h2>hello thank you for your attention</h2>
+			<h2>hello thanks for your attention</h2>
 			<p>
 				I'm an independent software developer and this is my evolving attempt at funding my projects
 				without any investors, sponsors, or other business partnerships in the mix. I started as a
