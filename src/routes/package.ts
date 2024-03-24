@@ -6,7 +6,7 @@ import type {Src_Json} from '@ryanatkn/gro/src_json.js';
 export const package_json = {
 	name: '8000.spiderspace.org',
 	version: '0.0.1',
-	description: 'Spiderspace supporter community spaces',
+	description: 'community spaces for Spiderspace supporters',
 	icon: '🕸️',
 	public: true,
 	homepage: 'https://8000.spiderspace.org/',
