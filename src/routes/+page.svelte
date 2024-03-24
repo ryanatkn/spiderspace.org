@@ -17,7 +17,7 @@
 			<blockquote>community spaces for Spiderspace supporters</blockquote>
 		</header>
 	</section>
-	<section class="panel p_md">
+	<section class="panel p_md shadow">
 		<div class="panel bg p_md">
 			<p>
 				It's 2024 when I'm writing this and we as a web are currently searching for sustainable ways
