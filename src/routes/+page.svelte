@@ -14,7 +14,7 @@
 	<section class="box">
 		<header class="prose box mb_xl4">
 			<h1>8000.spiderspace.org</h1>
-			<blockquote>supporter community spaces</blockquote>
+			<blockquote>community spaces for Spiderspace supporters</blockquote>
 		</header>
 		<Card href="{base}/about">
 			<div slot="icon">🕸️</div>
