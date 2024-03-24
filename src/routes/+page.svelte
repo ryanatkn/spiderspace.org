@@ -1,5 +1,4 @@
 <script lang="ts">
-	import Card from '@ryanatkn/fuz/Card.svelte';
 	import {base} from '$app/paths';
 	import {parse_package_meta} from '@ryanatkn/gro/package_meta.js';
 	import Library_Footer from '@ryanatkn/fuz/Library_Footer.svelte';
@@ -17,7 +16,7 @@
 			<blockquote>community spaces for Spiderspace supporters</blockquote>
 		</header>
 	</section>
-	<section class="panel p_md shadow">
+	<section class="panel p_md shadow w_100">
 		<div class="panel bg p_md">
 			<p>
 				It's 2024 when I'm writing this and we as a web are currently searching for sustainable ways
@@ -92,14 +91,11 @@
 			</aside>
 		</div>
 	</section>
+	<section></section>
 	<section>
-		<Card href="{base}/about">
-			<div slot="icon">🕸️</div>
-			about
-		</Card>
-	</section>
-	<section>
-		<Library_Footer {pkg} />
+		<Library_Footer {pkg}>
+			<a class="mb_md" href="{base}/about">🕸️ about</a>
+		</Library_Footer>
 	</section>
 </main>
 
@@ -112,6 +108,9 @@
 	}
 	h1 {
 		text-align: center;
+		word-break: break-all;
+	}
+	li > a {
 		word-break: break-all;
 	}
 </style>
