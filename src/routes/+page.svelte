@@ -27,20 +27,22 @@
 			<p>
 				I started as a professional web developer focusing on JS in 2011, and 13 years later I'm
 				still enjoying it. My goal is to work for the web on the projects I find meaningful.
-				Currently that's my projects <a href="https://www.fuz.dev/">Fuz</a>,
+				Currently I'm focused on my projects <a href="https://www.fuz.dev/">Fuz</a>,
 				<a href="https://gro.ryanatkn.com/">Gro</a>, the (not yet published) social app framework
 				<a href="https://zzz.fuz.dev/">Zzz</a>, and many of their dependencies. I've been working on
-				them full-time in public since 2019 while living off my savings, and I'm communicating about
+				them full-time in public since 2019 while living off savings, and I'm communicating about
 				them on YouTube with
 				<a href="https://youtube.com/@spiderspace_8000">Spacespace</a>
 				and <a href="https://youtube.com/@webdevladder">webdevladder</a>.
 			</p>
 			<p>
-				If you want to see more software and videos and blog posts from me where my incentives are
-				as pure as the + function, this website has links for supporting me. Giving me any amount of
-				money gives you access to supporter-only community spaces. <a
-					href="https://discord.gg/YU5tyeK72X">Join the Discord</a
-				> to get a feel for the vibes.
+				If you want to help me produce software, videos, and blog posts with incentives as pure as
+				the + function, you can support me on <a href="https://github.com/sponsors/ryanatkn"
+					>GitHub Sponsors</a
+				>
+				or <a href="https://www.patreon.com/ryanatkn">Patreon</a>. Giving me any amount of money
+				gives you access to supporter-only community spaces.
+				<a href="https://discord.gg/YU5tyeK72X">Join the Discord</a> to get a feel for the vibes.
 			</p>
 			<aside>
 				<ul>
