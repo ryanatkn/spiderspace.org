@@ -33,8 +33,9 @@
 			enjoying it. My goal is to work for the web on the projects I find meaningful. Currently
 			that's my projects <a href="https://www.fuz.dev/">Fuz</a>,
 			<a href="https://gro.ryanatkn.com/">Gro</a>, the (not yet published) social app framework
-			<a href="https://zzz.fuz.dev/">Zzz</a>, and many of their dependencies. I'm communicating
-			about them on YouTube with
+			<a href="https://zzz.fuz.dev/">Zzz</a>, and many of their dependencies. I've been working on
+			them full-time in public since 2019 while living off my savings, and I'm communicating about
+			them on YouTube with
 			<a href="https://youtube.com/@spiderspace_8000">Spacespace</a>
 			and <a href="https://youtube.com/@webdevladder">webdevladder</a>.
 		</p>
