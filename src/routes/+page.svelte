@@ -1,24 +1,19 @@
 <script lang="ts">
-	import Alert from '@ryanatkn/fuz/Alert.svelte';
+	import Card from '@ryanatkn/fuz/Card.svelte';
 	import {base} from '$app/paths';
-
-	import Mreows from '$routes/Mreows.svelte';
-
-	let mreows: Array<{icon: string}> | undefined;
 </script>
 
 <main class="prose">
 	<section class="box">
-		<header class="prose">
-			<h1>fuz_template</h1>
+		<header class="prose box mb_xl4">
+			<h1>8000.spiderspace.org</h1>
+			<blockquote>supporter community spaces</blockquote>
 		</header>
-		<Alert>
-			<span slot="icon"
-				>{#if mreows}{mreows[0].icon}{:else}✨{/if}</span
-			><a class="chip" href="{base}/about">about</a>
-		</Alert>
+		<Card href="{base}/about">
+			<div slot="icon">🕸️</div>
+			about
+		</Card>
 	</section>
-	<Mreows bind:mreows />
 </main>
 
 <style>
@@ -27,5 +22,9 @@
 		flex-direction: column;
 		align-items: center;
 		margin: 0 auto;
+	}
+	h1 {
+		text-align: center;
+		word-break: break-all;
 	}
 </style>

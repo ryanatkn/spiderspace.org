@@ -20,7 +20,7 @@
 </script>
 
 <svelte:head>
-	<title>@ryanatkn/fuz_template</title>
+	<title>8000.spiderspace.org</title>
 </svelte:head>
 
 <svelte:body
