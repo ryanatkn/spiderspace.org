@@ -16,10 +16,6 @@
 			<h1>8000.spiderspace.org</h1>
 			<blockquote>community spaces for Spiderspace supporters</blockquote>
 		</header>
-		<Card href="{base}/about">
-			<div slot="icon">🕸️</div>
-			about
-		</Card>
 	</section>
 	<section class="panel p_md">
 		<p>
@@ -89,6 +85,12 @@
 				<a rel="me" href="https://www.patreon.com/ryanatkn">patreon.com/ryanatkn</a>
 			</li>
 		</ul>
+	</section>
+	<section>
+		<Card href="{base}/about">
+			<div slot="icon">🕸️</div>
+			about
+		</Card>
 	</section>
 	<section>
 		<Library_Footer {pkg} />
