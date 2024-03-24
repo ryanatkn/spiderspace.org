@@ -19,14 +19,12 @@
 	<section class="panel p_md shadow w_100">
 		<div class="panel bg p_md">
 			<p>
-				It's 2024 when I'm writing this and we as a web are currently searching for sustainable ways
-				to fund free and open source software. I'm an independent software developer and this is my
-				evolving attempt at funding my projects without any investors, sponsors, or other business
-				partnerships in the mix.
+				I'm an independent software developer and this is my evolving attempt at funding my projects
+				without any investors, sponsors, or other business partnerships in the mix. I started as a
+				professional web developer focusing on JS in 2011, and 13 years later I'm still enjoying it.
+				My goal is to work for the web on the projects I find meaningful.
 			</p>
 			<p>
-				I started as a professional web developer focusing on JS in 2011, and 13 years later I'm
-				still enjoying it. My goal is to work for the web on the projects I find meaningful.
 				Currently I'm focused on my projects <a href="https://www.fuz.dev/">Fuz</a>,
 				<a href="https://gro.ryanatkn.com/">Gro</a>, the (not yet published) social app framework
 				<a href="https://zzz.fuz.dev/">Zzz</a>, and many of their dependencies. I've been working on
