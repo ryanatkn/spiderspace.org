@@ -1,11 +1,11 @@
 {
-  "name": "8000.spiderspace.org",
+  "name": "spiderspace",
   "version": "0.0.1",
-  "description": "community spaces for Spiderspace supporters",
+  "description": "community spaces for Spiderspace",
   "icon": "🕸️",
   "public": true,
-  "homepage": "https://8000.spiderspace.org/",
-  "repository": "https://github.com/spiderspace/8000.spiderspace.org",
+  "homepage": "https://www.spiderspace.org/",
+  "repository": "https://github.com/spiderspace/spiderspace",
   "type": "module",
   "engines": {
     "node": ">=20.10"

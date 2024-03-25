@@ -16,7 +16,7 @@
 </script>
 
 <svelte:head>
-	<title>8000.spiderspace.org</title>
+	<title>www.spiderspace.org</title>
 </svelte:head>
 
 <svelte:body

@@ -2,8 +2,10 @@
 	import {base} from '$app/paths';
 	import {parse_package_meta} from '@ryanatkn/gro/package_meta.js';
 	import Library_Footer from '@ryanatkn/fuz/Library_Footer.svelte';
+	import Card from '@ryanatkn/fuz/Card.svelte';
 
 	import {package_json, src_json} from '$routes/package.js';
+	import Community_Links from '$routes/Community_Links.svelte';
 
 	// TODO put in context?
 	const pkg = parse_package_meta(package_json.homepage, package_json, src_json);
@@ -12,90 +14,42 @@
 <main class="prose width_md">
 	<section class="box">
 		<header class="prose box mb_xl4">
-			<h1>8000.spiderspace.org</h1>
-			<blockquote>community spaces for Spiderspace supporters</blockquote>
+			<h1><small>🕸️</small>spiderspace<small>🕸️</small></h1>
+			<blockquote>community spaces for Spiderspace</blockquote>
 		</header>
 	</section>
 	<section class="panel p_md shadow w_100">
 		<div class="panel bg p_md">
-			<h2>hello thanks for your attention</h2>
-			<p>
-				I'm an independent software developer and this is my evolving attempt at funding my projects
-				without any investors, sponsors, or other business partnerships in the mix. I started as a
-				professional web developer focusing on JS in 2011, and 13 years later I'm still enjoying it.
-				My goal is to work for the web on the projects I find meaningful.
-			</p>
-			<p>
-				Currently I'm focused on my projects <a href="https://www.fuz.dev/">Fuz</a>,
-				<a href="https://gro.ryanatkn.com/">Gro</a>, the (not yet published) social app framework
-				<a href="https://zzz.fuz.dev/">Zzz</a>, and many of their dependencies. I've been working on
-				them full-time in public since 2019 while living off savings, and I'm communicating about
-				them on YouTube with
-				<a href="https://youtube.com/@spiderspace_8000">Spacespace</a>
-				and <a href="https://youtube.com/@webdevladder">webdevladder</a>.
-			</p>
-			<p>
-				If you want to help me produce software, videos, and blog posts with incentives as pure as
-				the + function, you can support me on <a href="https://github.com/sponsors/ryanatkn"
-					>GitHub Sponsors</a
+			<h2>
+				<!--<a href="https://www.spiderspace.org/"></a>--><a
+					title="zzz - social web app framework"
+					href="https://zzz.ryanatkn.com/">💤</a
+				><a title="fuz - friendly user zystem" href="https://www.fuz.dev/">🧶</a><a
+					title="gro - task runner and toolkit extending SvelteKit"
+					href="https://gro.ryanatkn.com/">🌰</a
+				><a
+					title="fuz_template - a static web app and Node library template with TypeScript, Svelte, SvelteKit, Vite, esbuild, Fuz, and Gro"
+					href="https://template.fuz.dev/">❄</a
 				>
-				or <a href="https://www.patreon.com/ryanatkn">Patreon</a>. Giving me any amount of money
-				gives you access to supporter-only community spaces.
-				<a href="https://discord.gg/YU5tyeK72X">Join the Discord</a> to get a feel for the vibes.
+			</h2>
+			<p>
+				Welcome, this is the placeholder website for Spiderspace, a work in progress community site.
+				For now see the links below and <a href="{base}/funding">the funding page</a> for more info.
 			</p>
 			<aside>
-				<ul>
-					<li>
-						<a rel="me" href="https://discord.gg/YU5tyeK72X">Discord</a>
-					</li>
-					<li>
-						<a rel="me" href="https://www.spiderspace.org/">spiderspace.org</a>
-					</li>
-					<li>
-						<a rel="me" href="https://www.webdevladder.net/">webdevladder.net</a>
-					</li>
-					<li>
-						<a rel="me" href="https://www.ryanatkn.com/">ryanatkn.com</a>
-					</li>
-					<li>
-						<a rel="me" href="https://youtube.com/@spiderspace_8000"
-							>youtube.com/@spiderspace_8000</a
-						>
-					</li>
-					<li>
-						<a rel="me" href="https://youtube.com/@webdevladder">youtube.com/@webdevladder</a>
-					</li>
-					<li>
-						<a rel="me" href="https://github.com/spiderspace">github.com/spiderspace</a>
-					</li>
-					<li>
-						<a rel="me" href="https://github.com/webdevladder">github.com/webdevladder</a>
-					</li>
-					<li>
-						<a rel="me" href="https://mastodon.social/@webdevladder"
-							>@webdevladder@mastodon.social</a
-						>
-					</li>
-					<li>
-						<a rel="me" href="https://hci.social/@ryanatkn">@ryanatkn@hci.social</a>
-					</li>
-					<li>
-						<a rel="me" href="https://twitter.com/webdevladder">twitter.com/webdevladder</a>
-					</li>
-					<li>
-						<a rel="me" href="https://github.com/sponsors/ryanatkn">github.com/sponsors/ryanatkn</a>
-					</li>
-					<li>
-						<a rel="me" href="https://www.patreon.com/ryanatkn">patreon.com/ryanatkn</a>
-					</li>
-				</ul>
+				<Community_Links />
 			</aside>
 		</div>
 	</section>
-	<section></section>
+	<section>
+		<Card href="{base}/funding"
+			><div slot="icon">🕸️</div>
+			funding</Card
+		>
+	</section>
 	<section>
 		<Library_Footer {pkg}>
-			<a class="mb_md" href="{base}/about">🕸️ about</a>
+			<a class="mb_md" href="{base}/about">🕸️ about 🕸️</a>
 		</Library_Footer>
 	</section>
 </main>
@@ -109,9 +63,6 @@
 	}
 	h1 {
 		text-align: center;
-		word-break: break-all;
-	}
-	li > a {
 		word-break: break-all;
 	}
 </style>

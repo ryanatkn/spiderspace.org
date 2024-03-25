@@ -1,5 +1,5 @@
-# 8000.spiderspace.org 🕸️
+# www.spiderspace.org 🕸️
 
-> community spaces for Spiderspace supporters
+> community spaces for Spiderspace
 
-[8000.spiderspace.org](https://8000.spiderspace.org/)
+[www.spiderspace.org](https://www.spiderspace.org/)
