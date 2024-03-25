@@ -15,7 +15,7 @@
 	<div class="prose">
 		<section class="box">
 			<header class="box">
-				<h1>fuz_template</h1>
+				<h1>www.spiderspace.org</h1>
 			</header>
 			<Breadcrumb>{package_json.icon}</Breadcrumb>
 		</section>
