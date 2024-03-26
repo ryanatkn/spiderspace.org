@@ -2,7 +2,6 @@
 	import {base} from '$app/paths';
 	import {parse_package_meta} from '@ryanatkn/gro/package_meta.js';
 	import Library_Footer from '@ryanatkn/fuz/Library_Footer.svelte';
-	import Card from '@ryanatkn/fuz/Card.svelte';
 
 	import {package_json, src_json} from '$routes/package.js';
 	import Community_Links from '$routes/Community_Links.svelte';
@@ -15,16 +14,25 @@
 	<section class="box">
 		<header class="prose box mb_xl4">
 			<h1><small>🕸️</small>spiderspace<small>🕸️</small></h1>
+			<!-- TODO add a utility class for the width/height icons -->
+			<img
+				alt="the Spiderspace icon, a pixelated yellow spider facing the viewer"
+				class="pixelated mb_xl2"
+				style:width="var(--icon_size_xl)"
+				style:height="var(--icon_size_xl)"
+				src="{base}/favicon.png"
+			/>
 			<blockquote>community spaces for Spiderspace</blockquote>
 		</header>
 	</section>
 	<section class="panel p_md shadow w_100">
 		<div class="panel bg p_md">
-			<h2>
+			<h2 class="size_xl5 box row wrap">
 				<!--<a href="https://www.spiderspace.org/"></a>--><a
 					title="zzz - social web app framework"
 					href="https://zzz.ryanatkn.com/">💤</a
-				><a title="fuz - friendly user zystem" href="https://www.fuz.dev/">🧶</a><a
+				><a title="fuz - Svelte UI library and CSS design system" href="https://www.fuz.dev/">🧶</a
+				><a
 					title="gro - task runner and toolkit extending SvelteKit"
 					href="https://gro.ryanatkn.com/">🌰</a
 				><a
@@ -33,19 +41,13 @@
 				>
 			</h2>
 			<p>
-				Welcome, this is the placeholder website for Spiderspace, a work in progress community site.
-				For now see the links below and <a href="{base}/funding">the funding page</a> for more info.
+				Welcome, this is a placeholder website for Spiderspace, which will be a community website
+				with a YouTube channel about building it.
 			</p>
 			<aside>
 				<Community_Links />
 			</aside>
 		</div>
-	</section>
-	<section>
-		<Card href="{base}/funding"
-			><div slot="icon">🕸️</div>
-			funding</Card
-		>
 	</section>
 	<section>
 		<Library_Footer {pkg}>
