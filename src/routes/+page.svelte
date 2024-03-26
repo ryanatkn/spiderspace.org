@@ -2,7 +2,6 @@
 	import {base} from '$app/paths';
 	import {parse_package_meta} from '@ryanatkn/gro/package_meta.js';
 	import Library_Footer from '@ryanatkn/fuz/Library_Footer.svelte';
-	import Card from '@ryanatkn/fuz/Card.svelte';
 
 	import {package_json, src_json} from '$routes/package.js';
 	import Community_Links from '$routes/Community_Links.svelte';
@@ -41,19 +40,13 @@
 				>
 			</h2>
 			<p>
-				Welcome, this is the placeholder website for Spiderspace, a work in progress community site.
-				For now see the links below and <a href="{base}/funding">the funding page</a> for more info.
+				Welcome, this is a placeholder website for Spiderspace, which will be a community website
+				with a YouTube channel about building it.
 			</p>
 			<aside>
 				<Community_Links />
 			</aside>
 		</div>
-	</section>
-	<section>
-		<Card href="{base}/funding"
-			><div slot="icon">🕸️</div>
-			funding</Card
-		>
 	</section>
 	<section>
 		<Library_Footer {pkg}>

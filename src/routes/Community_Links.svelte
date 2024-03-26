@@ -32,7 +32,8 @@
 	</li>
 	<li>
 		support me on <a rel="me" href="https://github.com/sponsors/ryanatkn">GitHub Sponsors</a>
-		and <a rel="me" href="https://www.patreon.com/ryanatkn">Patreon</a>
+		and <a rel="me" href="https://www.patreon.com/ryanatkn">Patreon</a> - more at
+		<a href="https://www.ryanatkn.com/funding">ryanatkn.com/funding</a>
 	</li>
 </ul>
 
