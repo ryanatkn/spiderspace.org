@@ -8,6 +8,7 @@ export const package_json = {
 	version: '0.0.1',
 	description: 'community spaces for Spiderspace',
 	icon: '🕸️',
+	license: 'MIT',
 	public: true,
 	homepage: 'https://www.spiderspace.org/',
 	repository: 'https://github.com/spiderspace/spiderspace',
