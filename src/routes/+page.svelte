@@ -31,7 +31,8 @@
 				<!--<a href="https://www.spiderspace.org/"></a>--><a
 					title="zzz - social web app framework"
 					href="https://zzz.ryanatkn.com/">💤</a
-				><a title="fuz - friendly user zystem" href="https://www.fuz.dev/">🧶</a><a
+				><a title="fuz - Svelte UI library and CSS design system" href="https://www.fuz.dev/">🧶</a
+				><a
 					title="gro - task runner and toolkit extending SvelteKit"
 					href="https://gro.ryanatkn.com/">🌰</a
 				><a
