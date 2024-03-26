@@ -27,7 +27,7 @@
 	</section>
 	<section class="panel p_md shadow w_100">
 		<div class="panel bg p_md">
-			<h2>
+			<h2 class="size_xl5 box row wrap">
 				<!--<a href="https://www.spiderspace.org/"></a>--><a
 					title="zzz - social web app framework"
 					href="https://zzz.ryanatkn.com/">💤</a
