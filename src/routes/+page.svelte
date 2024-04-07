@@ -25,7 +25,7 @@
 			<blockquote>community spaces for Spiderspace</blockquote>
 		</header>
 	</section>
-	<section class="panel p_md shadow w_100">
+	<section class="panel p_md shadow_md w_100">
 		<div class="panel bg p_md">
 			<h2 class="size_xl5 box row wrap">
 				<!--<a href="https://www.spiderspace.org/"></a>--><a
@@ -51,7 +51,9 @@
 	</section>
 	<section>
 		<Library_Footer {pkg}>
-			<a class="mb_md" href="{base}/about">🕸️ about 🕸️</a>
+			{#snippet icon_header()}
+				<a class="mb_md" href="{base}/about">🕸️ about 🕸️</a>
+			{/snippet}
 		</Library_Footer>
 	</section>
 </main>
