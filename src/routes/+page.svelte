@@ -51,7 +51,7 @@
 	</section>
 	<section>
 		<Library_Footer {pkg}>
-			{#snippet icon_header()}
+			{#snippet logo_header()}
 				<a class="mb_md" href="{base}/about">🕸️ about 🕸️</a>
 			{/snippet}
 		</Library_Footer>
