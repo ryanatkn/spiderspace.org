@@ -6,7 +6,8 @@ import type {Src_Json} from '@ryanatkn/gro/src_json.js';
 export const package_json = {
 	name: 'spiderspace',
 	version: '0.0.1',
-	description: 'community spaces for Spiderspace',
+	description: 'community website with a YouTube channel about building it',
+	motto: 'weaving web community',
 	icon: '🕸️',
 	license: 'MIT',
 	public: true,
@@ -28,7 +29,7 @@ export const package_json = {
 	devDependencies: {
 		'@ryanatkn/belt': '^0.20.10',
 		'@ryanatkn/eslint-config': '^0.1.2',
-		'@ryanatkn/fuz': '^0.96.3',
+		'@ryanatkn/fuz': '^0.96.4',
 		'@ryanatkn/gro': '^0.115.1',
 		'@sveltejs/adapter-static': '^3.0.1',
 		'@sveltejs/kit': '^2.5.6',

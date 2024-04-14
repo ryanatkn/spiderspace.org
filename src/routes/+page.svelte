@@ -2,6 +2,7 @@
 	import {base} from '$app/paths';
 	import {parse_package_meta} from '@ryanatkn/gro/package_meta.js';
 	import Library_Footer from '@ryanatkn/fuz/Library_Footer.svelte';
+	import Spiderspace_Logo from '@ryanatkn/fuz/Spiderspace_Logo.svelte';
 
 	import {package_json, src_json} from '$routes/package.js';
 	import Community_Links from '$routes/Community_Links.svelte';
@@ -10,19 +11,12 @@
 	const pkg = parse_package_meta(package_json.homepage, package_json, src_json);
 </script>
 
-<main class="prose width_md">
+<main class="width_md">
 	<section class="box">
-		<header class="prose box mb_xl4">
-			<h1><small>🕸️</small>spiderspace<small>🕸️</small></h1>
-			<!-- TODO add a utility class for the width/height icons -->
-			<img
-				alt="the Spiderspace icon, a pixelated yellow spider facing the viewer"
-				class="pixelated mb_xl2"
-				style:width="var(--icon_size_xl)"
-				style:height="var(--icon_size_xl)"
-				src="{base}/favicon.png"
-			/>
-			<blockquote>community spaces for Spiderspace</blockquote>
+		<header class="box">
+			<h1 class="mb_sm"><small>🕸️</small>spiderspace<small>🕸️</small></h1>
+			<Spiderspace_Logo size="var(--icon_size_xl3)" />
+			<blockquote class="mt_sm">weaving web community</blockquote>
 		</header>
 	</section>
 	<section class="panel p_md shadow_md w_100">
