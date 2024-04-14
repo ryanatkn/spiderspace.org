@@ -31,8 +31,9 @@
 				<!--<a href="https://www.spiderspace.org/"></a>--><a
 					title="Zzz - social web app framework"
 					href="https://zzz.ryanatkn.com/">💤</a
-				><a title="Moss - CSS framework" href="https://moss.ryanatkn.com/">🌿</a
-					><a title="Fuz - Svelte UI library" href="https://www.fuz.dev/">🧶</a
+				><a title="Moss - CSS framework" href="https://moss.ryanatkn.com/">🌿</a><a
+					title="Fuz - Svelte UI library"
+					href="https://www.fuz.dev/">🧶</a
 				><a
 					title="Gro - task runner and toolkit extending SvelteKit"
 					href="https://gro.ryanatkn.com/">🌰</a
@@ -43,7 +44,7 @@
 			</h2>
 			<p>
 				Welcome, this is a placeholder website for Spiderspace, which will be a community website
-				with a YouTube channel about building it.
+				with <a href="https://youtube.com/@spiderspace_8000">a YouTube channel</a> about building it.
 			</p>
 			<aside>
 				<Community_Links />
