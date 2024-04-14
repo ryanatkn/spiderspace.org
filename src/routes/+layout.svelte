@@ -11,11 +11,11 @@
 
 	import Settings from '$routes/Settings.svelte';
 
-	interface Props  {
+	interface Props {
 		children: Snippet;
 	}
 
-	const {children}:Props= $props()
+	const {children}: Props = $props();
 
 	let show_settings = $state(false);
 </script>
@@ -27,17 +27,23 @@
 <svelte:body
 	use:contextmenu_action={[
 		{
-			content: 'Settings',
-			icon: '?',
-			run: () => {
-				show_settings = true;
+			snippet: 'text',
+			props: {
+				content: 'Settings',
+				icon: '?',
+				run: () => {
+					show_settings = true;
+				},
 			},
 		},
 		{
-			content: 'Reload',
-			icon: '⟳',
-			run: () => {
-				location.reload();
+			snippet: 'text',
+			props: {
+				content: 'Reload',
+				icon: '⟳',
+				run: () => {
+					location.reload();
+				},
 			},
 		},
 	]}
@@ -45,13 +51,13 @@
 
 <Themed>
 	<Contextmenu_Root>
-	{@render children()}
-	{#if show_settings}
-		<Dialog onclose={() => (show_settings = false)}>
-			<div class="pane">
-				<Settings />
-			</div>
-		</Dialog>
-	{/if}
+		{@render children()}
+		{#if show_settings}
+			<Dialog onclose={() => (show_settings = false)}>
+				<div class="pane">
+					<Settings />
+				</div>
+			</Dialog>
+		{/if}
 	</Contextmenu_Root>
 </Themed>
