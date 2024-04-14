@@ -7,6 +7,7 @@
 	import Dialog from '@ryanatkn/fuz/Dialog.svelte';
 	import Contextmenu_Root from '@ryanatkn/fuz/Contextmenu_Root.svelte';
 	import {contextmenu_action} from '@ryanatkn/fuz/contextmenu.js';
+	import type {Snippet} from 'svelte';
 
 	import Settings from '$routes/Settings.svelte';
 
@@ -16,7 +17,7 @@
 
 	const {children}:Props= $props()
 
-	let show_settings = false;
+	let show_settings = $state(false);
 </script>
 
 <svelte:head>
