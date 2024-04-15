@@ -3,13 +3,15 @@
 		<a rel="me" href="https://discord.gg/YU5tyeK72X">Discord</a>
 	</li>
 	<li>
-		<a rel="me" href="https://www.spiderspace.org/">spiderspace.org</a>
+		<a rel="me" href="https://www.spiderspace.org/" class="selected">spiderspace.org</a> - nontechnical
+		design and process videos, you are here
 	</li>
 	<li>
-		<a rel="me" href="https://www.webdevladder.net/">webdevladder.net</a>
+		<a rel="me" href="https://www.webdevladder.net/">webdevladder.net</a> - advanced technical videos
+		and blog posts
 	</li>
 	<li>
-		<a rel="me" href="https://www.ryanatkn.com/">ryanatkn.com</a>
+		<a rel="me" href="https://www.ryanatkn.com/">ryanatkn.com</a> - my homepage
 	</li>
 	<li>
 		YouTube channels
@@ -31,9 +33,7 @@
 		<a rel="me" href="https://twitter.com/webdevladder">twitter.com/webdevladder</a>
 	</li>
 	<li>
-		support me on <a rel="me" href="https://github.com/sponsors/ryanatkn">GitHub Sponsors</a>
-		and <a rel="me" href="https://www.patreon.com/ryanatkn">Patreon</a> - more at
-		<a href="https://www.ryanatkn.com/funding">ryanatkn.com/funding</a>
+		support me at <a href="https://www.ryanatkn.com/funding">ryanatkn.com/funding</a>
 	</li>
 </ul>
 
