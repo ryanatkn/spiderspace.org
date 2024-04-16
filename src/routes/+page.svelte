@@ -6,6 +6,7 @@
 
 	import {package_json, src_json} from '$routes/package.js';
 	import Community_Links from '$routes/Community_Links.svelte';
+	import Project_Links from '$routes/Project_Links.svelte';
 
 	// TODO put in context?
 	const pkg = parse_package_meta(package_json.homepage, package_json, src_json);
@@ -14,28 +15,13 @@
 <main class="width_md">
 	<section class="box">
 		<header class="box">
-			<h1 class="mb_sm"><small>🕸️</small>spiderspace<small>🕸️</small></h1>
+			<h1 class="mb_sm">spiderspace</h1>
 			<Spiderspace_Logo size="var(--icon_size_xl3)" />
-			<blockquote class="mt_sm">weaving web community</blockquote>
+			<blockquote class="mt_sm">weaving web community 🕸️</blockquote>
 		</header>
 	</section>
 	<section class="panel p_md shadow_md w_100">
 		<div class="panel bg p_md">
-			<h2 class="size_xl5 box row wrap">
-				<!--<a href="https://www.spiderspace.org/"></a>--><a
-					title="Zzz - social web app framework"
-					href="https://zzz.ryanatkn.com/">💤</a
-				><a title="Moss - CSS framework" href="https://moss.ryanatkn.com/">🌿</a><a
-					title="Fuz - Svelte UI library"
-					href="https://www.fuz.dev/">🧶</a
-				><a
-					title="Gro - task runner and toolkit extending SvelteKit"
-					href="https://gro.ryanatkn.com/">🌰</a
-				><a
-					title="fuz_template - a static web app and Node library template with TypeScript, Svelte, SvelteKit, Vite, esbuild, Fuz, and Gro"
-					href="https://template.fuz.dev/">❄</a
-				>
-			</h2>
 			<p>
 				Welcome, this is a placeholder website for Spiderspace, which will be a community website
 				with <a href="https://youtube.com/@spiderspace_8000">a YouTube channel</a> about building it.
@@ -43,6 +29,9 @@
 			<aside>
 				<Community_Links />
 			</aside>
+			<nav class="size_xl5 box row wrap">
+				<Project_Links />
+			</nav>
 		</div>
 	</section>
 	<section>
