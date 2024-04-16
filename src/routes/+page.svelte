@@ -20,7 +20,7 @@
 			<blockquote class="mt_sm">weaving web community 🕸️</blockquote>
 		</header>
 	</section>
-	<section class="panel p_md shadow_md w_100">
+	<section class="panel p_md shadow_sm w_100">
 		<div class="panel bg p_md">
 			<p>
 				Welcome, this is a placeholder website for Spiderspace, which will be a community website
