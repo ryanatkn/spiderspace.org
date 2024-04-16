@@ -24,7 +24,8 @@
 		<div class="panel bg p_md">
 			<p>
 				Welcome, this is a placeholder website for Spiderspace, which will be a community website
-				with <a href="https://youtube.com/@spiderspace_8000">a YouTube channel</a> about building it.
+				with <a href="https://youtube.com/@spiderspace_8000">a YouTube channel</a> about building
+				it. Coming sometime in 2024 when <a href="https://github.com/ryanatkn/zzz">Zzz</a> is ready.
 			</p>
 			<aside>
 				<Community_Links />
