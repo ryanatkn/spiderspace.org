@@ -17,11 +17,13 @@
 		<header class="box">
 			<h1 class="mb_sm">spiderspace</h1>
 			<Spiderspace_Logo size="var(--icon_size_xl3)" />
-			<blockquote class="mt_sm">weaving web community 🕸️</blockquote>
+			<div class="mt_sm shadow_outset_xs p_sm radius_md">
+				<blockquote class="shadow_inset_xs px_xl">weaving web community 🕸️</blockquote>
+			</div>
 		</header>
 	</section>
-	<section class="panel p_md shadow_sm w_100">
-		<div class="panel bg p_md">
+	<section class="panel pl_md pt_sm pb_xs pr_xs2 shadow_xs w_100">
+		<div class="panel bg p_lg shadow_sm">
 			<p>
 				Welcome, this is a placeholder website for Spiderspace, which will be a community website
 				with <a href="https://youtube.com/@spiderspace_8000">a YouTube channel</a> about building
@@ -35,7 +37,7 @@
 			</nav>
 		</div>
 	</section>
-	<section>
+	<section class="mt_sm shadow_outset_xs p_lg radius_lg">
 		<Library_Footer {pkg}>
 			{#snippet logo_header()}
 				<a class="mb_md" href="{base}/about">🕸️ about 🕸️</a>
