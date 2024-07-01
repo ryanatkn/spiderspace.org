@@ -4,6 +4,8 @@
   "description": "community website with a YouTube channel about building it",
   "motto": "weaving web community",
   "glyph": "🕸️",
+  "logo": "logo.svg",
+  "logo_alt": "a little yellow spider",
   "license": "MIT",
   "public": true,
   "homepage": "https://www.spiderspace.org/",
@@ -15,16 +17,16 @@
   },
   "bugs": "https://github.com/spiderspace/spiderspace/issues",
   "funding": "https://www.ryanatkn.com/funding",
-  "type": "module",
-  "engines": {
-    "node": ">=20.12"
-  },
   "scripts": {
     "start": "gro dev",
     "dev": "gro dev",
     "build": "gro build",
     "test": "gro test",
     "deploy": "gro deploy"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=20.12"
   },
   "devDependencies": {
     "@ryanatkn/belt": "^0.23.0",
