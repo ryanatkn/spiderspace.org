@@ -17,7 +17,7 @@
 		<header class="box">
 			<h1 class="my_xl3"><small>🕸️</small>spiderspace<small>🕸️</small></h1>
 			<Spiderspace_Logo size="var(--icon_size_xl3)" />
-			<div class="mt_sm shadow_outset_xs p_sm radius_md">
+			<div class="mt_xl shadow_outset_xs p_sm radius_md">
 				<blockquote class="shadow_inset_xs px_xl">weaving web community 🕸️</blockquote>
 			</div>
 		</header>

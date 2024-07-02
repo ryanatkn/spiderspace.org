@@ -1,4 +1,6 @@
-# spiderspace.org 🕸️
+[<img src="/static/logo.svg" alt="a friendly yellow spider facing you" align="right" width="192" height="192">](https://www.spiderspace.org/)
+
+# spiderspace.org
 
 > weaving web community 🕸️
 
