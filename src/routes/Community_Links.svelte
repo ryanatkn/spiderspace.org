@@ -8,8 +8,8 @@
 		<a href="https://zzz.ryanatkn.com/">Zzz</a> when it's ready, you are here
 	</li>
 	<li>
-		<a rel="me" href="https://www.webdevladder.net/">webdevladder.net</a> - advanced technical videos
-		and blog posts
+		<a rel="me" href="https://www.webdevladder.net/">webdevladder.net</a> - realworld webdev with TypeScript
+		and Svelte
 	</li>
 	<li>
 		<a rel="me" href="https://www.ryanatkn.com/">ryanatkn.com</a> - my homepage
@@ -31,7 +31,8 @@
 		<a rel="me" href="https://hci.social/@ryanatkn">@ryanatkn@hci.social</a>
 	</li>
 	<li>
-		<a rel="me" href="https://twitter.com/webdevladder">twitter.com/webdevladder</a>
+		<a rel="me" href="https://twitter.com/webdevladder">@webdevladder</a> on Twitter and
+		<a rel="me" href="https://www.reddit.com/user/webdevladder/">/u/webdevladder</a> on Reddit
 	</li>
 	<li>
 		support me at <a href="https://www.ryanatkn.com/funding">ryanatkn.com/funding</a>
