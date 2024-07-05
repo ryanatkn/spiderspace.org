@@ -15,13 +15,13 @@
 	</li>
 	<li>
 		YouTube channels
-		<a rel="me" href="https://youtube.com/@spiderspace_8000">@spiderspace_8000</a> and
-		<a rel="me" href="https://youtube.com/@webdevladder">@webdevladder</a>
+		<a rel="me" href="https://youtube.com/@spiderspace_8000">@spiderspace_8000</a>,
+		<a rel="me" href="https://youtube.com/@webdevladder">@webdevladder</a>, and
+		<a rel="me" href="https://youtube.com/@webdevladder_vods">@webdevladder_vods</a>
 	</li>
 	<li>
-		GitHub orgs <a rel="me" href="https://github.com/spiderspace">@spiderspace</a>
-		and
-		<a rel="me" href="https://github.com/webdevladder">@webdevladder</a>
+		GitHub - <a rel="me" href="https://github.com/ryanatkn">@ryanatkn</a> and
+		<a rel="me" href="https://github.com/spiderspace">@spiderspace</a>
 	</li>
 	<li>
 		Mastodon as

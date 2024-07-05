@@ -37,7 +37,7 @@
 			</nav>
 		</div>
 	</section>
-	<section class="mt_sm shadow_outset_xs p_lg radius_lg">
+	<section class="mt_sm shadow_outset_xs p_lg radius_lg mb_xl8">
 		<Library_Footer {pkg}>
 			{#snippet logo_header()}
 				<a class="mb_md" href="{base}/about">🕸️ about 🕸️</a>
