@@ -3,9 +3,9 @@
 	import {parse_package_meta} from '@ryanatkn/gro/package_meta.js';
 	import Library_Footer from '@ryanatkn/fuz/Library_Footer.svelte';
 	import Spiderspace_Logo from '@ryanatkn/fuz/Spiderspace_Logo.svelte';
+	import Community_Links from '@ryanatkn/fuz/Community_Links.svelte';
 
 	import {package_json, src_json} from '$routes/package.js';
-	import Community_Links from '$routes/Community_Links.svelte';
 	import Project_Links from '$routes/Project_Links.svelte';
 
 	// TODO put in context?
