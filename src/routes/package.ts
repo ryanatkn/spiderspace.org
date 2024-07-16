@@ -14,9 +14,9 @@ export const package_json = {
 	license: 'MIT',
 	public: true,
 	homepage: 'https://www.spiderspace.org/',
-	repository: 'https://github.com/spiderspace/spiderspace',
+	repository: 'https://github.com/ryanatkn/spiderspace.org',
 	author: {name: 'Ryan Atkinson', email: 'mail@ryanatkn.com', url: 'https://www.ryanatkn.com/'},
-	bugs: 'https://github.com/spiderspace/spiderspace/issues',
+	bugs: 'https://github.com/ryanatkn/spiderspace.org/issues',
 	funding: 'https://www.ryanatkn.com/funding',
 	scripts: {
 		start: 'gro dev',
