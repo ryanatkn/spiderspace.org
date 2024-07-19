@@ -9,7 +9,7 @@
 	import Header from '$routes/Header.svelte';
 
 	// TODO put in context?
-	const pkg = parse_package_meta(package_json.homepage, package_json, src_json);
+	const pkg = parse_package_meta(package_json, src_json);
 </script>
 
 <main class="width_md">

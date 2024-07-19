@@ -30,10 +30,10 @@ export const package_json = {
 	type: 'module',
 	engines: {node: '>=20.12'},
 	devDependencies: {
-		'@ryanatkn/belt': '^0.24.9',
+		'@ryanatkn/belt': '^0.24.10',
 		'@ryanatkn/eslint-config': '^0.4.2',
-		'@ryanatkn/fuz': '^0.111.0',
-		'@ryanatkn/gro': '^0.130.2',
+		'@ryanatkn/fuz': '^0.115.1',
+		'@ryanatkn/gro': '^0.133.2',
 		'@ryanatkn/moss': '^0.8.0',
 		'@sveltejs/adapter-static': '^3.0.2',
 		'@sveltejs/kit': '^2.5.18',
