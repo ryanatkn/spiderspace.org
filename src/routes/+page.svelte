@@ -21,7 +21,8 @@
 			<p>
 				Welcome, this is a placeholder website for Spiderspace, which will be a community website
 				with <a href="https://youtube.com/@spiderspace_8000">a YouTube channel</a> about building
-				it. Coming sometime in 2024 when <a href="https://github.com/ryanatkn/zzz">Zzz</a> is ready.
+				it. Coming sometime in late 2024 or 2025 when
+				<a href="https://github.com/ryanatkn/zzz">Zzz</a> is ready.
 			</p>
 			<aside>
 				<Community_Links />
