@@ -50,7 +50,8 @@
 	]}
 />
 
-<Themed>
+<!-- TODO this isn't working -->
+<Themed color_scheme_fallback="dark">
 	<Contextmenu_Root>
 		{@render children()}
 		{#if show_settings}

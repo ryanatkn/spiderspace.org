@@ -3,9 +3,9 @@
 	import {parse_package_meta} from '@ryanatkn/gro/package_meta.js';
 	import Library_Footer from '@ryanatkn/fuz/Library_Footer.svelte';
 	import Community_Links from '@ryanatkn/fuz/Community_Links.svelte';
+	import Project_Links from '@ryanatkn/fuz/Project_Links.svelte';
 
 	import {package_json, src_json} from '$routes/package.js';
-	import Project_Links from '$routes/Project_Links.svelte';
 	import Header from '$routes/Header.svelte';
 
 	// TODO put in context?
