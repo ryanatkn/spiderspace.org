@@ -6,4 +6,4 @@
 
 [spiderspace.org](https://www.spiderspace.org/) is a community website
 with [a YouTube channel](https://youtube.com/@spiderspace_8000) about building it.
-Coming sometime in late 2024 or 2025 when [Zzz](https://github.com/ryanatkn/zzz) is ready.
+Coming sometime in late 2025 or 2026 when [Zzz](https://github.com/ryanatkn/zzz) is ready.
