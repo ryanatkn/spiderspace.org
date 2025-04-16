@@ -28,7 +28,7 @@ export const package_json = {
 		deploy: 'gro deploy',
 	},
 	type: 'module',
-	engines: {node: '>=20.17'},
+	engines: {node: '>=22.11'},
 	devDependencies: {
 		'@ryanatkn/belt': '^0.30.2',
 		'@ryanatkn/eslint-config': '^0.8.0',
