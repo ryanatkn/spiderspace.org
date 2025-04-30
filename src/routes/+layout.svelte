@@ -9,6 +9,7 @@
 	import Contextmenu_Root from '@ryanatkn/fuz/Contextmenu_Root.svelte';
 	import {contextmenu_action} from '@ryanatkn/fuz/contextmenu_state.svelte.js';
 	import type {Snippet} from 'svelte';
+	import {sync_color_scheme, Themer} from '@ryanatkn/fuz/themer.svelte.js';
 
 	import Settings from '$routes/Settings.svelte';
 
@@ -19,6 +20,10 @@
 	const {children}: Props = $props();
 
 	let show_settings = $state(false);
+
+	// TODO forcing dark mode is awkward
+	const themer = new Themer(undefined, 'dark');
+	sync_color_scheme(themer.color_scheme); // TODO probably shouldn't be needed
 </script>
 
 <svelte:head>
@@ -51,7 +56,7 @@
 />
 
 <!-- TODO this isn't working -->
-<Themed color_scheme_fallback="dark">
+<Themed {themer}>
 	<Contextmenu_Root>
 		{@render children()}
 		{#if show_settings}

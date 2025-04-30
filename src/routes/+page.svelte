@@ -1,7 +1,7 @@
 <script lang="ts">
 	import {base} from '$app/paths';
 	import {parse_package_meta} from '@ryanatkn/gro/package_meta.js';
-	import Library_Footer from '@ryanatkn/fuz/Library_Footer.svelte';
+	import Docs_Footer from '@ryanatkn/fuz/Docs_Footer.svelte';
 	import Community_Links from '@ryanatkn/fuz/Community_Links.svelte';
 	import Project_Links from '@ryanatkn/fuz/Project_Links.svelte';
 
@@ -33,11 +33,11 @@
 		</div>
 	</section>
 	<section class="mt_sm shadow_inset_bottom_xs p_lg radius_lg mb_xl8">
-		<Library_Footer {pkg}>
+		<Docs_Footer {pkg}>
 			{#snippet logo_header()}
 				<a class="mb_md" href="{base}/about">🕸️ about 🕸️</a>
 			{/snippet}
-		</Library_Footer>
+		</Docs_Footer>
 	</section>
 </main>
 

@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Package_Detail from '@ryanatkn/fuz/Package_Detail.svelte';
 	import {parse_package_meta} from '@ryanatkn/gro/package_meta.js';
-	import Library_Footer from '@ryanatkn/fuz/Library_Footer.svelte';
+	import Docs_Footer from '@ryanatkn/fuz/Docs_Footer.svelte';
 	import Breadcrumb from '@ryanatkn/fuz/Breadcrumb.svelte';
 
 	import {package_json, src_json} from '$routes/package.js';
@@ -25,11 +25,11 @@
 		</div>
 	</section>
 	<section class="box">
-		<Library_Footer {pkg}>
+		<Docs_Footer {pkg}>
 			<div class="mb_xl">
 				<Breadcrumb>{package_json.glyph}</Breadcrumb>
 			</div>
-		</Library_Footer>
+		</Docs_Footer>
 	</section>
 </main>
 
