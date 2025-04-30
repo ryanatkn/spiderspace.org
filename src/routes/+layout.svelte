@@ -21,6 +21,7 @@
 
 	let show_settings = $state(false);
 
+	// TODO this doesn't currently support loading light mode from storage on startup to avoid a FOUC, will need a second hashed script for sites that default to dark
 	// TODO forcing dark mode is awkward
 	const themer = new Themer(undefined, 'dark');
 	sync_color_scheme(themer.color_scheme); // TODO probably shouldn't be needed
