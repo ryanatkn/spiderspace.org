@@ -158,8 +158,8 @@ a.chip {
 	font-weight: 700;
 }
 
-.inline_flex {
-	display: inline-flex;
+.relative {
+	position: relative;
 }
 .flex {
 	display: flex;
@@ -173,18 +173,8 @@ a.chip {
 .align_items_center {
 	align-items: center;
 }
-.size_xl5 {
-	font-size: var(--size_xl5);
-	--size: var(--size_xl5);
-}
 .bg {
 	background-color: var(--bg);
-}
-.radius_md {
-	border-radius: var(--radius_md);
-}
-.radius_lg {
-	border-radius: var(--radius_lg);
 }
 .shadow_xs {
 	box-shadow: var(--shadow_xs)

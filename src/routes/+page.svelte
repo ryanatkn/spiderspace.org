@@ -27,12 +27,12 @@
 			<aside>
 				<Community_Links />
 			</aside>
-			<nav class="size_xl5 box row flex_wrap">
+			<nav class="font_size_xl5 box row flex_wrap">
 				<Project_Links />
 			</nav>
 		</div>
 	</section>
-	<section class="mt_sm shadow_inset_bottom_xs p_lg radius_lg mb_xl8">
+	<section class="mt_sm shadow_inset_bottom_xs p_lg border_radius_lg mb_xl8">
 		<Docs_Footer {pkg}>
 			{#snippet logo_header()}
 				<a class="mb_md" href="{base}/about">🕸️ about 🕸️</a>
